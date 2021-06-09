@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,23 @@
 		4E13168625A59EFE0011614B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13168425A59EFE0011614B /* Main.storyboard */; };
 		4E13168825A59F000011614B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E13168725A59F000011614B /* Assets.xcassets */; };
 		4E13168B25A59F000011614B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13168925A59F000011614B /* LaunchScreen.storyboard */; };
+		4E13169425A605240011614B /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13169325A605240011614B /* NormalViewController.swift */; };
+		4E1316DC25B32D6D0011614B /* HeiwaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1316DB25B32D6D0011614B /* HeiwaViewController.swift */; };
+		4E1316DF25B378660011614B /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1316DE25B378660011614B /* FriendViewController.swift */; };
+		4E1316E225B385F60011614B /* LoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1316E125B385F60011614B /* LoveViewController.swift */; };
+		4E1316E525B392AF0011614B /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1316E425B392AF0011614B /* AllViewController.swift */; };
+		4E1316E825B3BAF90011614B /* RuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1316E725B3BAF90011614B /* RuleViewController.swift */; };
+		4EF5FB9725B3C62000DE6B5C /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5FB9625B3C62000DE6B5C /* sound.mp3 */; };
+		4EF5FB9A25B90E9500DE6B5C /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5FB9925B90E9500DE6B5C /* BGM.mp3 */; };
+		4EF5FB9D25B90F8200DE6B5C /* button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5FB9C25B90F8200DE6B5C /* button.mp3 */; };
+		4EF5FBA325B9247C00DE6B5C /* slotStop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5FBA225B9247C00DE6B5C /* slotStop.mp3 */; };
+		4EF5FBA725B925ED00DE6B5C /* slotStart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4EF5FBA625B925ED00DE6B5C /* slotStart.mp3 */; };
+		EF9A6506D65EF40C06F3DD27 /* Pods_debateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005F6E6BF9012574256AF7D5 /* Pods_debateApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005F6E6BF9012574256AF7D5 /* Pods_debateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_debateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A87855F4856089047870C88 /* Pods-debateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debateApp.debug.xcconfig"; path = "Target Support Files/Pods-debateApp/Pods-debateApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4E13167B25A59EFE0011614B /* debateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = debateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E13167E25A59EFE0011614B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E13168025A59EFE0011614B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,18 @@
 		4E13168725A59F000011614B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E13168A25A59F000011614B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E13168C25A59F000011614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E13169325A605240011614B /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		4E1316DB25B32D6D0011614B /* HeiwaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeiwaViewController.swift; sourceTree = "<group>"; };
+		4E1316DE25B378660011614B /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		4E1316E125B385F60011614B /* LoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveViewController.swift; sourceTree = "<group>"; };
+		4E1316E425B392AF0011614B /* AllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		4E1316E725B3BAF90011614B /* RuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleViewController.swift; sourceTree = "<group>"; };
+		4EF5FB9625B3C62000DE6B5C /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		4EF5FB9925B90E9500DE6B5C /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		4EF5FB9C25B90F8200DE6B5C /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button.mp3; sourceTree = "<group>"; };
+		4EF5FBA225B9247C00DE6B5C /* slotStop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slotStop.mp3; sourceTree = "<group>"; };
+		4EF5FBA625B925ED00DE6B5C /* slotStart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slotStart.mp3; sourceTree = "<group>"; };
+		F7AD9B407FFAC37BA6D91760 /* Pods-debateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-debateApp.release.xcconfig"; path = "Target Support Files/Pods-debateApp/Pods-debateApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9A6506D65EF40C06F3DD27 /* Pods_debateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				4E13167D25A59EFE0011614B /* debateApp */,
 				4E13167C25A59EFE0011614B /* Products */,
+				73A3C73AB56889334A0F57DB /* Pods */,
+				6222582D9DEBED5CF9365E0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +92,36 @@
 				4E13168725A59F000011614B /* Assets.xcassets */,
 				4E13168925A59F000011614B /* LaunchScreen.storyboard */,
 				4E13168C25A59F000011614B /* Info.plist */,
+				4E13169325A605240011614B /* NormalViewController.swift */,
+				4E1316DB25B32D6D0011614B /* HeiwaViewController.swift */,
+				4E1316DE25B378660011614B /* FriendViewController.swift */,
+				4E1316E125B385F60011614B /* LoveViewController.swift */,
+				4E1316E425B392AF0011614B /* AllViewController.swift */,
+				4E1316E725B3BAF90011614B /* RuleViewController.swift */,
+				4EF5FB9925B90E9500DE6B5C /* BGM.mp3 */,
+				4EF5FB9625B3C62000DE6B5C /* sound.mp3 */,
+				4EF5FB9C25B90F8200DE6B5C /* button.mp3 */,
+				4EF5FBA625B925ED00DE6B5C /* slotStart.mp3 */,
+				4EF5FBA225B9247C00DE6B5C /* slotStop.mp3 */,
 			);
 			path = debateApp;
+			sourceTree = "<group>";
+		};
+		6222582D9DEBED5CF9365E0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005F6E6BF9012574256AF7D5 /* Pods_debateApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73A3C73AB56889334A0F57DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A87855F4856089047870C88 /* Pods-debateApp.debug.xcconfig */,
+				F7AD9B407FFAC37BA6D91760 /* Pods-debateApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E13168F25A59F000011614B /* Build configuration list for PBXNativeTarget "debateApp" */;
 			buildPhases = (
+				46DD5F403E18CDA3412B073A /* [CP] Check Pods Manifest.lock */,
 				4E13167725A59EFE0011614B /* Sources */,
 				4E13167825A59EFE0011614B /* Frameworks */,
 				4E13167925A59EFE0011614B /* Resources */,
+				6B4F456003CE382A69C9D53B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +183,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF5FB9725B3C62000DE6B5C /* sound.mp3 in Resources */,
+				4EF5FBA325B9247C00DE6B5C /* slotStop.mp3 in Resources */,
 				4E13168B25A59F000011614B /* LaunchScreen.storyboard in Resources */,
+				4EF5FBA725B925ED00DE6B5C /* slotStart.mp3 in Resources */,
 				4E13168825A59F000011614B /* Assets.xcassets in Resources */,
+				4EF5FB9A25B90E9500DE6B5C /* BGM.mp3 in Resources */,
+				4EF5FB9D25B90F8200DE6B5C /* button.mp3 in Resources */,
 				4E13168625A59EFE0011614B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46DD5F403E18CDA3412B073A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-debateApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4F456003CE382A69C9D53B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-debateApp/Pods-debateApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-debateApp/Pods-debateApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-debateApp/Pods-debateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E13167725A59EFE0011614B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1316DF25B378660011614B /* FriendViewController.swift in Sources */,
 				4E13168325A59EFE0011614B /* ViewController.swift in Sources */,
+				4E1316E825B3BAF90011614B /* RuleViewController.swift in Sources */,
+				4E1316E525B392AF0011614B /* AllViewController.swift in Sources */,
+				4E13169425A605240011614B /* NormalViewController.swift in Sources */,
 				4E13167F25A59EFE0011614B /* AppDelegate.swift in Sources */,
 				4E13168125A59EFE0011614B /* SceneDelegate.swift in Sources */,
+				4E1316DC25B32D6D0011614B /* HeiwaViewController.swift in Sources */,
+				4E1316E225B385F60011614B /* LoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +395,7 @@
 		};
 		4E13169025A59F000011614B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A87855F4856089047870C88 /* Pods-debateApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +409,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yanata.debateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		4E13169125A59F000011614B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AD9B407FFAC37BA6D91760 /* Pods-debateApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yanata.debateApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

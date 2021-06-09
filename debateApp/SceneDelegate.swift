@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  debateApp
-//
-//  Created by 田中達也 on 2021/01/06.
-//
 
 import UIKit
 
